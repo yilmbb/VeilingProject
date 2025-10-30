@@ -1,10 +1,8 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VeilingAPI.DTOs
 {
-    /// <summary>
-    /// Request model voor het updaten van een gebruiker
-    /// </summary>
     public class UpdateGebruikerRequest
     {
         [Required]
@@ -17,7 +15,6 @@ namespace VeilingAPI.DTOs
         [Required]
         public string wachtwoord { get; set; } = string.Empty;
 
-        // Bedrijfsgegevens (voor zowel Koper als Verkoper)
         [Required]
         public string bedrijfsnaam { get; set; } = string.Empty;
 
@@ -33,7 +30,6 @@ namespace VeilingAPI.DTOs
         [Required]
         public string rekening_nummer { get; set; } = string.Empty;
 
-        // Adressen (afhankelijk van type gebruiker)
         public string? bedrijfsadres { get; set; }
         public string? leveradres { get; set; }
     }

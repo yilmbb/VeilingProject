@@ -328,3 +328,4 @@ C:\Users\berka\projectjemid\VeilingProject\backend\VeilingAPI\obj\Debug\net9.0\r
 C:\Users\berka\projectjemid\VeilingProject\backend\VeilingAPI\obj\Debug\net9.0\VeilingAPI.pdb
 C:\Users\berka\projectjemid\VeilingProject\backend\VeilingAPI\obj\Debug\net9.0\VeilingAPI.genruntimeconfig.cache
 C:\Users\berka\projectjemid\VeilingProject\backend\VeilingAPI\obj\Debug\net9.0\ref\VeilingAPI.dll
+C:\Users\berka\projectjemid\VeilingProject\backend\VeilingAPI\obj\Debug\net9.0\VeilingAPI.sourcelink.json

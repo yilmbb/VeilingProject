@@ -11,13 +11,10 @@ namespace VeilingAPI.DTOs
         public decimal prijs { get; set; }
         [Range(0, int.MaxValue)]
         public int voorraad { get; set; }
-
-        // Simplified auth: client sends email of ingelogde verkoper
         [Required]
         [EmailAddress]
         public string verkoperEmail { get; set; } = string.Empty;
     }
-
     public class ProductResponse
     {
         public int product_id { get; set; }

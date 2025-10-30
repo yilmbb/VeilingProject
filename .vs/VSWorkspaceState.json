@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend",
+    "\\backend\\VeilingAPI",
+    "\\backend\\VeilingAPI\\Services",
+    "\\frontend",
+    "\\frontend\\veiling-frontend",
+    "\\frontend\\veiling-frontend\\public",
+    "\\frontend\\veiling-frontend\\src",
+    "\\frontend\\veiling-frontend\\src\\context",
+    "\\frontend\\veiling-frontend\\src\\pages",
+    "\\frontend\\veiling-frontend\\src\\types"
+  ],
+  "PreviewInSolutionExplorer": false
+}

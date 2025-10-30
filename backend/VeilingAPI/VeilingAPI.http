@@ -1,0 +1,6 @@
+@VeilingAPI_HostAddress = http://localhost:5094
+
+GET {{VeilingAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
